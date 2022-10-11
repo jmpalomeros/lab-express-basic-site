@@ -24,10 +24,6 @@ app.get("/gallery", (req, res) => {
 })
 
 
-
-
-
-
 app.get("/*", (req, res) => {
     res.sendFile(__dirname + "/views/not-found.html")
 })

@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+
+body{
+    background-color: lightyellow;
+    font-family: "Montserrat";
+    color: black;
+    font-weight:bolder;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 5vh 10vw;
+    
+}
+
+ol li{
+    text-align:justify;
+}
+#legado{
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+
+}
+
+nav{
+margin-top: 0;
+padding-top: 3vh;
+position: fixed;
+top:0;
+width: 100%;
+display: flex;
+justify-content: space-around;
+background-color: rgb(78, 78, 46);
+padding-bottom: 2vh;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+}
+
+footer{
+margin-bottom: 0;
+padding-bottom: 3vh;
+position: fixed;
+bottom:0;
+width: 100%;
+display: flex;
+justify-content: space-around;
+background-color: rgb(78, 78, 46);
+padding-bottom: 2vh;
+padding-top:2vh;
+}
+
+footer a{
+    text-decoration: none;
+    color: black;
+}
